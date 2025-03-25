@@ -1,19 +1,52 @@
+# LinkTree Clone
+A MERN-based LinkTree alternative that allows users to create a personalized page with multiple links, social media profiles, and branding options. This application enables users to manage and share all their important links in one place.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 🌟 Features
 
-First, run the development server:
+1. **User Authentication :** Secure login and registration.
+2. **Customizable Profile :** Users can add, edit, and delete links.
+3. **Social Media Integration :** Add social links for better engagement.
+4. **Analytics Tracking :** View click counts on each link.
+5. **Responsive UI :** Optimized for both mobile and desktop.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 🛠️ Tech Stack
 
+| 🌐 Technology     | 📖 Documentation                                   |
+|-------------------|----------------------------------------------------|
+| **React**         | [React Docs](https://react.dev/)                   |
+| **Node.js**       | [Node.js Docs](https://nodejs.org/)                |
+| **Express**       | [Express Docs](https://expressjs.com/)             |
+| **MongoDB**       | [MongoDB Docs](https://www.mongodb.com/docs/)      |
+
+
+# 🚀 Getting Started
+
+1️⃣ Clone the Repository
+<pre> <code> git clone https://github.com/Manan-Joshi750/Bittree-LinkHub.git cd Bittree-LinkHub </code> </pre>
+
+2️⃣ Install Dependencies
+<pre> <code> npm install cd frontend && npm install </code> </pre>
+
+3️⃣ Configure .env File
+Create a .env file in the root directory with the following settings :
+
+<pre>
+<code>
+NODE_ENV=development/production  
+PORT=5000  
+MONGO_URI=<Your MongoDB URI>  
+JWT_SECRET=<Your JWT Secret>  
+</code>
+</pre>
+  
+4️⃣ Start the Development Server
+Run the application using one of the following :
+
+<pre> <code> npm run dev # or yarn dev # or pnpm dev # or bun dev </code> </pre>
+
+5️⃣ Open in Browser
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
